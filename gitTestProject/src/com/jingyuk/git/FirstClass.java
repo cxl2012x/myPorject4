@@ -9,10 +9,12 @@ public class FirstClass {
         System.out.println("我是你的事实!");
 
         //测试语句
-        test();
+        test2();
+        Second second = new Second();
+        second.test();
     }
 
-    public static void test(){
+    public static void test2(){
         for (int i = 0; i < 10; i++) {
             System.out.println("i = "+i);
             i +=1;  //加1再输出

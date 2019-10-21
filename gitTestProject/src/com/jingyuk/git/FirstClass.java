@@ -10,6 +10,7 @@ public class FirstClass {
 
         //测试语句
         test();
+
     }
 
     public static void test(){

@@ -7,13 +7,16 @@ public class FirstClass {
         System.out.println("我是你的事实!");
         System.out.println("我是你的事实!");
         System.out.println("我是你的事实!");
+
+        //测试语句
         test();
     }
 
     public static void test(){
         for (int i = 0; i < 10; i++) {
             System.out.println("i = "+i);
-            i +=1;
+            i +=1;  //加1再输出
+            System.out.println(i);
         }
     }
 }
